@@ -1,0 +1,80 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+body{
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+
+/* Header  */
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  height: 55px;
+  width: 100vw;
+}
+.container img{
+  margin: auto 10px;
+  height: 25px;
+  width: auto;
+}
+.container span{
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+/* Card */
+.card-container{
+  display: flex;
+  margin: 20px 0;
+}
+.main-img img{
+  height: 168px;
+  width: 125px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 0 20px;
+}
+.pin{
+  height: 11px;
+  margin: 0 7px;
+}
+.link{
+  text-decoration: underline;
+  color: #918E9B;
+  font-size: 13px;
+  margin-left: 7px;
+}
+.link:hover{
+  color: #F55A5A;
+}
+.countryName{
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 13px;
+}
+.date{
+  font-weight: 600;
+}
+.info{
+  max-width: 33%;
+}
+/* -------------------------------------- */

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #282D35;
+    background-image: url('./assets/reactjs-icon2.svg');
+    background-repeat: no-repeat;
+    background-size: 30% auto;
+    background-position: right;
+    background-position-y: 95%;
+    height: 263px; /* Set height for the section */
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    padding: 20px 0px;
+    padding-left: 25px;
+    gap: 10px;
+    background-color: #21222A;
+}
+.navbar img {
+    height: 28px;
+    width: auto;
+}
+
+.navbar p {
+    font-size: 22.5px; 
+    font-weight: 700; 
+    margin: 0;
+    color: #61DAFB;
+}
+
+main{
+    padding: 30px 25px;
+}
+
+ul{
+    margin-top: 20px;
+    font-weight: 400;
+}
+ul li{
+    font-size: 16px;
+    padding-block: 5px;
+}
+ul li::marker{
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
