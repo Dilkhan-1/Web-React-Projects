@@ -5,12 +5,8 @@ export default function Main() {
     "",
   ]);
 
-  function onSubmit(e) {
-    e.preventDefault();
-    console.log("Form Submitted");
-    const formData = new FormData(e.target);
-    const newIngredient = formData.get("ingredient");
-    console.log(ingredients);
+  function addIngredient(FormData){
+    const newIngredient = FormData.get("ingredient");
     setIngredients([...ingredients, newIngredient]);
   }
 
@@ -20,7 +16,7 @@ export default function Main() {
         <h1 className="text-4xl font-bold mt-8">Welcome to Chef Claude</h1>
         <p className="text-lg mt-4">The best recipes from around the world</p>
 
-        <form onSubmit={onSubmit}>
+        <form action={addIngredient}>
           <input
             className="border border-gray-300 p-2 rounded-lg my-4"
             type="text"
